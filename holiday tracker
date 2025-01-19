@@ -1,0 +1,33 @@
+# Solusi DDP 1 MOOC Pre-U 2022/2023
+# Nama: Gina Pratiwi
+
+print ("Selamat datang di Gina Holiday Tracker!\n")
+banyak_tempat_wisata = int(input("Masukkan banyak tempat wisata yang kamu kunjungi: "))
+
+while banyak_tempat_wisata <= 0 : 
+    print("Input tidak valid. Silakan masukkan input kembali!\n")
+    banyak_tempat_wisata = int(input("Masukkan banyak tempat wisata kamu yang kamu kunjungi: "))
+    
+tingkat_kebahagiaan = 0
+
+for i in range (banyak_tempat_wisata) : 
+    print ()
+    (tujuan_wisata)= input(f"Perjalanan {i + 1}  : ") 
+    rating = int(input(f"Rating perjalanan kamu ke {tujuan_wisata} (indeks 1-10): ")) 
+
+rata_rata_kebahagiaan = rating
+
+print()
+print("---Summary---")
+print(f"Skala kebahagiaan Gina adalah {rata_rata_kebahagiaan:.2f}")
+
+
+if rata_rata_kebahagiaan >=7 : 
+    print(" Gina bahagia karena pengalamannya menyenangkan.")
+elif rata_rata_kebahagiaan >=4 : 
+    print("Gina  senang karena pengalamannya cukup baik.")
+else :
+    print("Gina sedih karena pengalamannya buruk.")
+
+print()
+print("Terimakasih telah menggunakan Gina Holiday Tracker!")
