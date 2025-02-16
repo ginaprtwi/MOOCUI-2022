@@ -1,3 +1,6 @@
+# Solusi DDP 1 MOOC Pre-U 2022/2023
+# Nama: Gina Pratiwi
+
 # Fungsi untuk menghitung total belanjaan
 def hitung_total_belanjaan(nama_berkas):
     try:
